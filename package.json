@@ -1,0 +1,22 @@
+{
+  "name": "crud-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Oleksa Sarnatskyi",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.22"
+  }
+}
