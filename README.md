@@ -8,13 +8,13 @@
     "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.22"
     
-    ###npm i
+    ###npm i###
     
-    ###npm i cors 
+    ###npm i cors ###
     
     in index.js: 
     import cors from "cors";
     app.use(cors());
     
 
-    ###npm run start:dev
+    ###npm run start:dev###
