@@ -12,6 +12,9 @@
     
     ###npm i cors ###
     
+    Check 17 line in index.js
+    
+    
     in index.js: 
     import cors from "cors";
     app.use(cors());
