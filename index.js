@@ -14,7 +14,7 @@ import { UserController, PostController } from "./controllers/index.js";
 
 mongoose
   .connect(
-    "mongodb+srv://admin:NDQtU8psAZpxqmL9@crud.phfcxck.mongodb.net/blog?retryWrites=true&w=majority"
+  //Тут підключення до твоєї бази даних
   )
   .then(() => {
     console.log("Success connect DB!");
